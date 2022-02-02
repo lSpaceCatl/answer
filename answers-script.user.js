@@ -910,8 +910,8 @@ class CheckBoxHint extends Hint {
     CreateHintDomBlock() {
         let answerParentBlock = this._domAnswerBlock.parentNode;
         let hintHtml = `
-                    <div class="script-answers" style="padding-left: 5px; position: relative; display: none; background: rgb(0 0 (0 / 6%)); border-radius: 4px; font-size: 15px; max-height: 25px;">
-                        ответы: <span title="Выбрали этот ответ" style="margin: 0px 5px;">0</span> | <span style="color: green; margin: 0px 5px;" title="Уверены, что этот ответ правильный">0</span> | <span style="color: red; margin: 0px 5px;" title="Уверены, что этот ответ неправильный">0</span>
+                    <div class="script-answers" style="padding-right: 10px; position: relative; display: none; background: rgb(0 0 (0 / 6%)); border-radius: 4px; font-size: 15px; max-height: 25px;">
+                        ответы: <span title="Выбрали этот ответ" style="margin: 0px 10px;">0</span> | <span style="color: green; margin: 0px 10px;" title="Уверены, что этот ответ правильный">0</span> | <span style="color: red; margin: 0px 5px;" title="Уверены, что этот ответ неправильный">0</span>
                     </div>`;
         answerParentBlock.insertAdjacentHTML('beforeend', hintHtml);
         this._domHintBlock = answerParentBlock.querySelector('.script-answers');
@@ -921,12 +921,12 @@ class CheckBoxHint extends Hint {
         let buttonsCss = `
               .approval-btn-group {
                 display: flex;
-                margin-right: 5px;
+                margin-right: 10px;
                 float: left;
                 clear: both;
               }
               .approval-span-btn {
-                font-size: 15px;
+                font-size: 10px;
               }
               .approval-span-btn:hover {
                 cursor: pointer;
