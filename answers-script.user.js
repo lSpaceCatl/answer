@@ -923,7 +923,7 @@ class CheckBoxHint extends Hint {
               .approval-btn-group {
                 display: flex;
                 margin-right: 5px;
-                float: right;
+                float: left;
                 clear: both;
               }
               .approval-span-btn {
