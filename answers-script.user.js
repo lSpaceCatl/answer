@@ -5,7 +5,6 @@
 // @version     2.2.0
 // @description online test answers!
 // @author      SyntOwl and Oniel, SpaceCat
-// @match       *://online-edu.mirea.ru/*
 // @match       *://oniel.beget.tech/*
 // @match       *://dl.sechenov.ru/*
 // @updateURL   https://raw.githubusercontent.com/lSpaceCatl/answer/main/answers-script.user.js
